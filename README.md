@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+<p align="center">
+  <img src="images/litspark.png" width="360" alt="LitSpark logo and language-learning mascot" />
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# LitSpark 📚
 
-## Get started
+A language-learning app I independently built and published on the App Store for **LitSpark**, a youth nonprofit organization.
 
-1. Install dependencies
+LitSpark helps English learners build confidence through spoken AI conversations, reading exercises, and practical English for everyday situations.
 
-   ```bash
-   npm install
-   ```
+**[Download on the App Store](https://apps.apple.com/ca/app/litspark/id6757113920)** · [About LitSpark](https://litspark.ca/)
 
-2. Start the app
+## Features
 
-   ```bash
-    npx expo start
-   ```
+### Conversational AI 🎙️
 
-In the output, you'll find options to open the app in a
+Practice speaking aloud with an AI conversation partner in a low-pressure environment. Learners can rehearse conversations and build confidence for real-life interactions.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<p align="center">
+  <img src="images/speaking.png" width="280" alt="Speaking practice with LitSpark's AI conversation partner, microphone controls, and speech playback" />
+</p>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Situational English practice 💬
 
-## Get a fresh project
+Learn useful phrases for everyday interactions, including small talk and asking for help. Scenario-based questions and explanations help learners understand what to say and why.
 
-When you're ready, run:
+<p align="center">
+  <img src="images/situational-english.png" width="620" alt="Situational English practice sets and a small-talk question with explanatory feedback" />
+</p>
+
+### Reading exercises 📖
+
+Explore reading passages and test comprehension with quizzes. Gamified learning and encouraging feedback make reading practice more engaging.
+
+<p align="center">
+  <img src="images/reading.png" width="520" alt="LitSpark reading passage and multiple-choice comprehension quiz on iPad" />
+</p>
+
+## My Role
+
+I independently built the app and published it on the App Store. My work spans the mobile implementation, integration of the learning activities, and preparation for release.
+
+## Built With
+
+- **React Native** and **Expo** for mobile development
+- **TypeScript** for application code
+- **Expo Router** for navigation
+- **NativeWind** for styling
+
+Related repository: [LitSpark backend](https://github.com/magi-wuu/LSAPP_backend).
+
+## Running Locally
+
+Install Node.js and npm, then run:
 
 ```bash
-npm run reset-project
+git clone https://github.com/magi-wuu/LitSpark-App.git
+cd LitSpark-App
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Follow the Expo terminal instructions to open the app on a compatible device or simulator. Backend-dependent features also require the corresponding backend configuration; these commands start the frontend development server.
 
-## Learn more
+## About LitSpark
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Built for [LitSpark](https://litspark.ca/), a youth nonprofit organization.
